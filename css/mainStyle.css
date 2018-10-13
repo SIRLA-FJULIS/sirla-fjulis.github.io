@@ -1,0 +1,58 @@
+/* 更改中文字體 */
+body,input,button,select,textarea{
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif !important;
+    font-size:108%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+/*navbar logo*/
+.logo_img_navbar{
+    width: 40px;
+}
+.navbar{
+    padding-left: 2rem !important;
+}
+.navbar-brand{
+    padding: 0px !important;
+}
+/* footer style */
+.footer{
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 15px;
+}
+.footer_text{
+    font-size: 0.9rem;
+    margin: 0px;
+}
+
+.logo_img_footer{
+    width: 200px;
+}
+
+/* -------------------------content-------------------- */
+.content{
+    padding: 0px !important;
+}
+
+/* jumbotron */
+#sirla_info{
+    background-color: #e25451;
+    color: #ffffff;
+    border-radius: 0px;
+}
+
+/* motivation */
+#motivation{
+    padding: 2rem 8rem;
+}
+@media(max-width:576px){
+    #motivation{
+        padding: 2rem 3rem;
+    }
+}
+/*--------------------------------------------------------*/
