@@ -14,10 +14,54 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        /* sirla_info */
+        #sirla_info{
+            background-color: #ff3a20;
+            color: #f1fec6;
+            border-radius: 0px;
+        }
+
+        /* who we are */
+        #who_we_are{
+            padding: 2rem 8rem;
+            background-color: #b6d6cc;
+        }
+        @media(max-width:800px){
+            #learn{
+                padding: 2rem 3rem;
+            }
+        }
+
+        /* motivation */
+        #motivation{
+            padding: 2rem 8rem;
+            background-color: #f1fec6;
+        }
+        @media(max-width:800px){
+            #motivation{
+                padding: 2rem 3rem;
+            }
+        }
+
+        /* learn */
+        #learn{
+            padding: 2rem 8rem;
+            background-color: #b6d6cc;
+        }
+        @media(max-width:800px){
+            #learn{
+                padding: 2rem 3rem;
+            }
+        }
+        .learn-title{
+            font-size: 2rem;
+        }
+    </style>
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm bg-info navbar-light sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
         <a class="navbar-brand" href="index.html">
             <img class="logo_img_navbar" src="./pictures/logo/sirla_logo_beta.png" alt="sirla_cat">
         </a>
@@ -44,18 +88,46 @@
             <h1 class="display-4">SIRLA</h1>
             <p class="lead">Science of Information Research and Learning Association</p>
             <hr class="my-4" style="border-top: 1px solid;">
-            <p>2018成立於輔大圖資，本社群希望在分享各種知識經驗的同時，本身也能夠學習到更多相關的知識，並以能做出相當的作品為目標。</p>
+            <h2>資訊科學研究討論協會</h2>
         </div>
-        <div id="motivation"" class="jumbotron text-center">
-                <h1 class="display-6">成立動機</h1>
-                <em><s>我們需要更多的錢! 錢! money!</s></em>
-                <p>有鑑於近期系上許多老師的退休、以及升遷後無暇額外開課，
-                    加上在此世代對於資訊相關知識要求逐年上升，故而希望能夠透過這個社團，
-                    由在學、甚至研究所進修或已在業界上班的各位學長姐，將一些相關知識能夠分享給學弟妹，藉此互助學習。</p>
+        <div id="who_we_are" class="jumbotron text-center">
+                <h1 class="display-6">Who we are?</h1>
+                <p>我們是輔仁大學圖書資訊學系的大學部學生，因著對資訊領域有興趣而聚集。</p>
             </div>
+        <div id="motivation" class="jumbotron text-center">
+            <h1 class="display-6">Motivation</h1>
+            <em><s>我們需要更多的錢! 錢! money!</s></em>
+            <p>有鑑於近期系上許多老師的退休、以及升遷後無暇額外開課，
+                加上在此世代對於資訊相關知識要求逐年上升，故而希望能夠透過這個社團，
+                由在學、甚至研究所進修或已在業界上班的各位學長姐，將一些相關知識能夠分享給學弟妹，藉此互助學習。</p>
+        </div>
+        <div id="learn" class="jumbotron text-center">
+            <h1 class="display-6" style="margin-bottom:30px;">What we learn?</h1>
+            <div class="row">
+                <div class="col-md-4" id="linux">
+                    <h1 class="learn-title">Linux</h1>
+                    <p class="learn-content">系統操作</p>
+                    <p class="learn-content">系統設定</p>
+                    <p class="learn-content">伺服器架設</p>
+                </div>
+                <div class="col-md-4" id="front_end">
+                    <h1 class="learn-title">Front end</h1>
+                    <p class="learn-content">HTML</p>
+                    <p class="learn-content">CSS</p>
+                    <p class="learn-content">Javascript</p>
+                    <p class="learn-content">Frameworks</p>
+                </div>
+                <div class="col-md-4" id="back_end">
+                    <h1 class="learn-title">Back end</h1>
+                    <p class="learn-content">Python</p>
+                    <p class="learn-content">Django</p>
+                    <p class="learn-content">SQL</p>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- footer -->
-    <footer class="footer bg-dark text-center container-fluid">
+    <footer class="footer text-center container-fluid">
         <p class="footer_text">
             &copySIRLA＠輔大圖資. Proudly created with Bootstrap.
         </p>

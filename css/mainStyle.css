@@ -8,12 +8,16 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
 }
 
-/*navbar logo*/
+/*navbar*/
 .logo_img_navbar{
     width: 120px;
 }
 .navbar{
     padding-left: 2rem !important;
+    background-color: #ff3a20;
+}
+.navbar-nav .nav-link{
+    color: #f1fec6 !important;
 }
 .navbar-brand{
     padding: 0px !important;
@@ -23,6 +27,7 @@ h1,h2,h3,h4,h5,h6{
     height: 50px;
     width: 100%;
     color: #ffffff;
+    background-color: #29339b;
     padding-top: 15px;
 }
 .footer_text{
@@ -39,20 +44,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px !important;
 }
 
-/* jumbotron */
-#sirla_info{
-    background-color: #e25451;
-    color: #ffffff;
-    border-radius: 0px;
-}
-
-/* motivation */
-#motivation{
-    padding: 2rem 8rem;
-}
-@media(max-width:576px){
-    #motivation{
-        padding: 2rem 3rem;
-    }
+.jumbotron{
+    margin: 0px !important;
 }
 /*--------------------------------------------------------*/
