@@ -1,3 +1,13 @@
+/* whole page */
+h1{
+    font-weight: bold !important;
+    color: #3a3a3a !important;
+}
+p{
+    line-height: 2rem;
+    font-size: 1.07rem;
+    color: #3a3a3a;
+}
 /* sirla_info */
 #sirla_info{
     background: linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
@@ -48,7 +58,7 @@
     background-repeat: no-repeat;
 }
 .white_background{
-    background-color: rgb(241, 254, 198, 0.70);
+    background-color: rgb(241, 254, 198, 0.75);
     padding: 2rem 13rem;
 }
 @media(max-width:900px){
