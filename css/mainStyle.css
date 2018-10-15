@@ -31,12 +31,12 @@ h1,h2,h3,h4,h5,h6{
 .footer{
     height: 50px;
     width: 100%;
-    color: #ffffff;
-    background-color: #29339b;
-    padding-top: 15px;
+    background-color: #5f616d;
+    padding-top: 10px;
 }
 .footer_text{
     font-size: 0.9rem;
+    color: #ffffff;
     margin: 0px;
 }
 
