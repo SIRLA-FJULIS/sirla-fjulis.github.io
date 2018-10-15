@@ -20,7 +20,18 @@
             background-color: #ff3a20;
             color: #f1fec6;
             border-radius: 0px;
+            height: 100%;
         }
+        .lead{
+            font-size: 1.4rem;
+        }
+        .sirla_ch{
+            font-size: 1.9rem;
+        }
+        #sirla_info_conten{
+            margin: auto;
+        }
+
 
         /* who we are */
         #who_we_are{
@@ -72,7 +83,7 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
         <a class="navbar-brand" href="index.html">
             <img class="logo_img_navbar" src="./pictures/logo/sirla_logo_beta.png" alt="sirla_cat">
         </a>
@@ -93,14 +104,17 @@
             </ul>
         </div>
     </nav>
-    <!-- content -->
-    <div class="content container-fluid">
-        <div id="sirla_info" class="jumbotron text-center">
-            <h1 class="display-4">SIRLA</h1>
+    <!-- header -->
+    <header id="sirla_info" class="jumbotron text-center row align-items-center">
+        <div id="sirla_info_content" class="col">
+            <h1 class="display-1">SIRLA</h1>
             <p class="lead">Science of Information Research and Learning Association</p>
             <hr class="my-4" style="border-top: 1px solid;">
-            <h2>資訊科學研究會</h2>
+            <h2 class="sirla_ch">資訊科學研究會</h2>
         </div>
+    </header>
+    <!-- content -->
+    <div class="content container-fluid">
         <div id="who_we_are" class="jumbotron text-center">
                 <h1 class="display-6">Who We Are</h1>
                 <p>我們是輔仁大學圖書資訊學系的學生，因為對資訊相關領域有莫大的興趣而聚集。</p>

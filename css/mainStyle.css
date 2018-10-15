@@ -1,3 +1,8 @@
+/* global */
+html,body{
+    height: 100%;
+    margin: 0;
+}
 /* 更改中文字體 */
 body,input,button,select,textarea{
     font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif !important;
@@ -5,7 +10,7 @@ body,input,button,select,textarea{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif !important;  
 }
 
 /*navbar*/
@@ -33,10 +38,6 @@ h1,h2,h3,h4,h5,h6{
 .footer_text{
     font-size: 0.9rem;
     margin: 0px;
-}
-
-.logo_img_footer{
-    width: 200px;
 }
 
 /* -------------------------content-------------------- */
