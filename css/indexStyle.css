@@ -19,7 +19,12 @@
 }
 #sirla_info_logo{
     margin-bottom: 50px;
-    max-width: 60%;
+    width: 90%;
+    max-width: 750px;
+}
+#sirla_info_hr{
+    border-top: 1px solid;
+    max-width: 800px;
 }
 
 /* who we are */
