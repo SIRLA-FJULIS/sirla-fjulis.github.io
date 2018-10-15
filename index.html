@@ -17,8 +17,11 @@
     <style>
         /* sirla_info */
         #sirla_info{
-            background-color: #ff3a20;
-            color: #f1fec6;
+            background: linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
+            background: -moz-linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
+            background: -webkit-linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
+            background: -o-linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
+            color: #000000;
             border-radius: 0px;
             height: 100%;
         }
@@ -31,7 +34,10 @@
         #sirla_info_conten{
             margin: auto;
         }
-
+        #sirla_info_logo{
+            margin-bottom: 50px;
+            max-width: 60%;
+        }
 
         /* who we are */
         #who_we_are{
@@ -107,9 +113,9 @@
     <!-- header -->
     <header id="sirla_info" class="jumbotron text-center row align-items-center">
         <div id="sirla_info_content" class="col">
-            <h1 class="display-1">SIRLA</h1>
+            <img id="sirla_info_logo" class="img-fluid" src="./pictures/logo/sira_logo_big.png" alt="sirla log">
             <p class="lead">Science of Information Research and Learning Association</p>
-            <hr class="my-4" style="border-top: 1px solid;">
+            <hr class="my-2" style="border-top: 1px solid;">
             <h2 class="sirla_ch">資訊科學研究會</h2>
         </div>
     </header>

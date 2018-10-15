@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar{
     padding-left: 2rem !important;
-    background-color: #ff3a20;
+    background-color:rgba(132, 157, 214);
 }
 .navbar-nav .nav-link{
     color: #f1fec6 !important;
