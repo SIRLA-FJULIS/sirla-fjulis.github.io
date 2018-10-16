@@ -18,14 +18,12 @@ p{
 .sirla_ch{
     font-size: 1.9rem;
 }
-#sirla_info_conten{
-    margin: auto;
-}
 #sirla_info_logo{
+    margin-right: 40px;
     margin-bottom: 15px;
     margin-top: 30px;
-    width: 55%;
-    max-width: 330px;
+    width: 65%;
+    max-width: 310px;
 }
 #sirla_info_hr{
     border-top: 1px solid;
@@ -34,6 +32,16 @@ p{
 @media(max-width:600px){
     #sirla_info_logo{
         margin-bottom: 0;
+    }
+    #text_logo{
+        font-size: 2.9rem;
+    }
+    .lead{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .sirla_ch{
+        font-size: 1.5rem
     }
 }
 /* who we are */
