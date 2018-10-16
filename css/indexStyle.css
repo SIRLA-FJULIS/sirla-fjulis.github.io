@@ -25,9 +25,8 @@ p{
     margin: auto;
 }
 #sirla_info_logo{
-    margin-right: 50px;
     margin-bottom: 15px;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 55%;
     max-width: 330px;
 }
@@ -35,7 +34,11 @@ p{
     border-top: 1px solid;
     max-width: 800px;
 }
-
+@media(max-width:600px){
+    #sirla_info_logo{
+        margin-bottom: 0;
+    }
+}
 /* who we are */
 #who_we_are{
     padding: 2rem 13rem;
