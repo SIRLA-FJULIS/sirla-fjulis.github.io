@@ -1,17 +1,45 @@
-/* global */
+/* ---------------------------global---------------------------- */
 html,body{
     height: 100%;
     margin: 0;
 }
+
 /* 更改中文字體 */
 body,input,button,select,textarea{
-    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif !important;
+    font-family: Arial, "微軟正黑體", "微软雅黑", sans-serif !important;
     font-size:108%;
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif !important;  
+    font-family: Arial, "微軟正黑體", "微软雅黑", sans-serif !important;  
 }
+
+/* 改背景顏色 */
+.bg-primary{
+    background-color: #A1B5D8 !important;
+}
+.bg-secondary{
+    background-color: #C2D8B9 !important;
+}
+.bg-light{
+    background-color: #E4F0D0 !important;
+}
+.bg-white{
+    background-color: #FFFCF7 !important;
+}
+.bg-dark{
+    background-color: #738290 !important;
+}
+
+/* 改文字顏色 */
+.text-light{
+    color: #FFFCF7 !important;
+}
+
+.text-dark{
+    color: #353e47 !important;
+}
+/* -------------------------------------------------------*/
 
 /*navbar*/
 .logo_img_navbar{
@@ -19,25 +47,12 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar{
     padding-left: 2rem !important;
-    background-color:rgba(132, 157, 214);
 }
-.navbar-nav .nav-link{
-    color: #f1fec6 !important;
+.nav-link{
+    color: #3f4953 !important;
 }
 .navbar-brand{
     padding: 0px !important;
-}
-/* footer style */
-.footer{
-    height: 50px;
-    width: 100%;
-    background-color: #5f616d;
-    padding-top: 10px;
-}
-.footer_text{
-    font-size: 0.9rem;
-    color: #ffffff;
-    margin: 0px;
 }
 
 /* -------------------------content-------------------- */
@@ -45,7 +60,28 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px !important;
 }
 
+/* jumbotron */
 .jumbotron{
     margin: 0px !important;
+    padding: 2rem 13rem;
+    border-radius: 0;
+}
+@media(max-width:900px){
+    .jumbotron{
+        padding: 2rem 3rem;
+    }
 }
 /*--------------------------------------------------------*/
+
+/* footer style */
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #738290;
+    padding-top: 10px;
+}
+.footer_text{
+    font-size: 0.9rem;
+    color: #FFFCF7;
+    margin: 0px;
+}

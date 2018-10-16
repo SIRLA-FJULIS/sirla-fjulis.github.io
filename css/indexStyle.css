@@ -1,17 +1,14 @@
 /* whole page */
 h1{
     font-weight: bold !important;
-    color: #3a3a3a !important;
 }
 p{
     line-height: 2rem;
     font-size: 1.08rem;
-    color: #3a3a3a;
 }
+
 /* sirla_info */
 #sirla_info{
-    background: rgb(132, 157, 214);
-    color: #000000;
     border-radius: 0px;
     height: 100%;
 }
@@ -40,15 +37,7 @@ p{
     }
 }
 /* who we are */
-#who_we_are{
-    padding: 2rem 13rem;
-    background-color: #b6d6cc;
-}
-@media(max-width:900px){
-    #who_we_are{
-        padding: 2rem 3rem;
-    }
-}
+
 
 /* motivation */
 #motivation{
@@ -61,27 +50,14 @@ p{
 }
 .white_background{
     background-color: rgb(241, 254, 198, 0.75);
-    padding: 2rem 13rem;
 }
 @media(max-width:900px){
-    #motivation{
-        background-size: 140%;
-    }
     .white_background{
-    padding: 2rem 3rem;
-}
-}
-
-/* learn */
-#learn{
-    padding: 2rem 13rem;
-    background-color: #b6d6cc;
-}
-@media(max-width:900px){
-    #learn{
         padding: 2rem 3rem;
     }
 }
+
+/* learn */
 .learn-title{
     font-size: 2rem;
 }

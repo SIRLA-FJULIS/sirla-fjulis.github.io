@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SIRLA</title>
-    <link rel="stylesheet" type="text/css" href="./css/mainStyle.css">
-    <link rel="stylesheet" type="text/css" href="./css/indexStyle.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -15,10 +13,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="./css/indexStyle.css">
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
         <a class="navbar-brand" href="index.html">
             <img class="logo_img_navbar" src="./pictures/logo/SIRLA_Logo_150x143.png" alt="sirla_cat">
         </a>
@@ -41,10 +41,10 @@
     </nav>
 
     <!-- header -->
-    <header id="sirla_info" class="jumbotron text-center row align-items-center">
+    <header id="sirla_info" class="jumbotron bg-primary text-dark text-center row align-items-center">
         <div id="sirla_info_content" class="col">
             <img id="sirla_info_logo" class="img-fluid" src="./pictures/logo/SIRLA_Logo_1000x953.png" alt="sirla logo">
-            <h1 class="display-4">SIRLA</h1>
+            <h1 id="text_logo" class="display-4">SIRLA</h1>
             <p class="lead">Science of Information Research and Learning Association</p>
             <hr id="sirla_info_hr" class="my-2">
             <h2 class="sirla_ch">資訊科學研究會</h2>
@@ -53,18 +53,22 @@
 
     <!-- content -->
     <div class="content container-fluid">
-        <div id="who_we_are" class="jumbotron text-center">
-                <h1 class="display-6">Who We Are</h1>
-                <p>我們是輔仁大學圖書資訊學系的學生<br>
-                    從最初四個即將畢業的青年慢慢地擴展<br>
-                    漸漸的在系上從新鮮人到校友<br>
-                    所有人都因著對資訊相關領域有莫大的興趣而聚集<br>
-                    相互提拔、共同苦惱<br>
-                    以期在資訊爆炸的時代邁出更遠的一步。</p>
-            </div>
-        <div id="motivation" class="jumbotron text-center">
+
+        <!-- who we are-->
+        <div id="who_we_are" class="jumbotron bg-secondary text-dark text-center">
+            <h1 class="display-6">我們是誰?</h1>
+            <p>我們是輔仁大學圖書資訊學系的學生<br>
+                從最初四個即將畢業的青年慢慢地擴展<br>
+                漸漸的在系上從新鮮人到校友<br>
+                所有人都因著對資訊相關領域有莫大的興趣而聚集<br>
+                相互提拔、共同苦惱<br>
+                以期在資訊爆炸的時代邁出更遠的一步。</p>
+        </div>
+
+        <!-- motivation -->
+        <div id="motivation" class="jumbotron text-dark text-center">
             <div class="white_background">
-                <h1 class="display-6">Motivation</h1>
+                <h1 class="display-6">動機</h1>
                 <em><s>我們需要更多的錢! 錢! money!</s></em>
                 <p>有鑑於近期系上許多老師的退休、以及升遷後無暇額外開課<br>
                     加上在此世代對於資訊相關知識要求逐年上升<br>
@@ -74,34 +78,47 @@
                     藉此互助學習。</p>
             </div>
         </div>
-        <div id="learn" class="jumbotron text-center">
-            <h1 class="display-6" style="margin-bottom:30px;">What We Learn</h1>
+
+        <!-- learn -->
+        <div id="learn" class="jumbotron bg-light text-dark text-center">
+            <h1 class="display-6" style="margin-bottom:30px;">我們學什麼?</h1>
             <div class="row">
                 <div class="col-md-4" id="linux">
-                    <h2 class="learn-title">Linux</h2>
-                    <p class="learn-content">系統操作</p>
-                    <p class="learn-content">系統設定</p>
-                    <p class="learn-content">伺服器架設</p>
+                    <h2 class="learn-title">Linux系統</h2>
                 </div>
                 <div class="col-md-4" id="front_end">
-                    <h2 class="learn-title">Front end</h2>
-                    <p class="learn-content">HTML</p>
-                    <p class="learn-content">CSS</p>
-                    <p class="learn-content">Javascript</p>
-                    <p class="learn-content">Frameworks</p>
+                    <h2 class="learn-title">網站系統</h2>
                 </div>
                 <div class="col-md-4" id="back_end">
-                    <h2 class="learn-title">Back end</h2>
-                    <p class="learn-content">Python</p>
-                    <p class="learn-content">Django</p>
-                    <p class="learn-content">SQL</p>
+                    <h2 class="learn-title">專案實作</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Regular gathering -->
+         <div id="regular_gathering" class="jumbotron bg-secondary text-dark text-center">
+            <h1 class="display-6">定期聚會</h1>
+            <p>
+                每個禮拜天是我們定期聚會時間<br>
+                輪流由各個成員準備題目以及教材<br>
+                以解說兼具技術實作的方式與大家分享這個主題<br>
+            </p>
+        </div>
+    
+        <!-- contact us -->
+        <div id="contact_us" class="jumbotron bg-light text-dark text-center">
+            <div class="white_background">
+                <h1 class="display-6">聯絡我們</h1>
+                <div id="chairman">
+                    <p class="name">會長: Иo1lz</p>
+                    <p class="email">Email: egoism.no.sakur@gmail.com</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- footer -->
-    <footer class="footer text-center container-fluid">
+    <footer class="footer bg-dark text-light text-center container-fluid">
         <p class="footer_text">
             &copySIRLA＠輔大圖資. Proudly created with Bootstrap.
         </p>
