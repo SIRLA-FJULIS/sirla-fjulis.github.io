@@ -26,8 +26,9 @@ p{
 }
 #sirla_info_logo{
     margin-right: 50px;
-    margin-bottom: 20px;
-    width: 70%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    width: 55%;
     max-width: 330px;
 }
 #sirla_info_hr{
