@@ -10,10 +10,7 @@ p{
 }
 /* sirla_info */
 #sirla_info{
-    background: linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
-    background: -moz-linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
-    background: -webkit-linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
-    background: -o-linear-gradient(270deg, rgba(255, 254, 255, 1)35%, rgba(132, 157, 214, 0.8)70%); 
+    background: rgb(132, 157, 214);
     color: #000000;
     border-radius: 0px;
     height: 100%;
@@ -28,9 +25,10 @@ p{
     margin: auto;
 }
 #sirla_info_logo{
-    margin-bottom: 50px;
-    width: 90%;
-    max-width: 750px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 70%;
+    max-width: 330px;
 }
 #sirla_info_hr{
     border-top: 1px solid;
