@@ -61,6 +61,9 @@ p{
     background-color: rgba(241, 254, 198, 0.75);
 }
 @media(max-width:900px){
+    #motivation{
+        background-attachment: scroll;
+    }
     .white_background{
         padding: 2rem 3rem;
     }
