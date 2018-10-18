@@ -1,0 +1,106 @@
+svg{
+    width: 100%;
+}
+.terminal{
+    width: 100%;
+    max-width: 550px;
+    height: 330px;
+    margin: 0 auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: black;
+}
+  
+.ribbon {
+    border: 1px solid grey;
+    border-radius:3px;
+    background-color:grey;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.circle {
+    float:left;
+    width:20px;
+}
+.terminal-title {
+    font-family: consolas;
+    color:white;
+    padding-left:65px;
+}
+.terminal-content { 
+    width:100%;
+    color:white;
+    padding-left:3px;
+    padding-top:0px;
+    float:left;
+    margin-top:-110px;
+}
+.terminal p{
+    margin: 0px;
+    display: inline-block;
+    font-family: monospace, "微軟正黑體"; 
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 22px; /* 為了符合中文高度 */
+}
+
+@media(max-width:370px){
+    .terminal p{
+        font-size: 13.5px;
+    }
+}
+.disabled{
+    border-right: 0px !important;
+}
+.typing1{
+    animation: type1 0.3s steps(2);
+    border-right: 4px solid white;
+}
+@keyframes type1{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 2ch;
+    }
+}
+
+.typing2{
+    animation: type2 1.2s steps(14);
+    border-right: 4px solid white;
+}
+@keyframes type2{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 14ch;
+    }
+}
+
+.typing3{
+    animation: type2 1.2s steps(12);
+    border-right: 4px solid white;
+}
+@keyframes type2{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 12ch;
+    }
+}
+
+.typing4{
+    animation: type2 1.2s steps(12);
+    border-right: 4px solid white;
+}
+@keyframes type2{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 12ch;
+    }
+}
