@@ -58,7 +58,7 @@ p{
 }
 .white_background{
     padding: 30px 0px;
-    background-color: rgb(241, 254, 198, 0.75);
+    background-color: rgba(241, 254, 198, 0.75);
 }
 @media(max-width:900px){
     .white_background{
