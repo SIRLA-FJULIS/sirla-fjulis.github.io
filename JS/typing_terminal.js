@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
   
 $(window).scroll(function(){
-    var curBottom = $(window).scrollTop() + $(window).height() - $(".terminal").height();
+    var curBottom = $(window).scrollTop() + $(window).height() - ($(".terminal").height()/2);
     if(curBottom > $(".terminal").position().top){
         startTyping();
     }
