@@ -74,6 +74,11 @@ h1,h2,h3,h4,h5,h6{
         padding: 2rem 1.5rem;
     }
 }
+
+/* contact us */
+.name{
+    font-weight: bold;
+}
 /*--------------------------------------------------------*/
 
 /* footer style */
