@@ -16,7 +16,8 @@ h1,h2,h3,h4,h5,h6{
 
 /* 改背景顏色 */
 .bg-primary{
-    background-color: #A1B5D8 !important;
+    /* background-color: #A1B5D8 !important; */
+    background-color: rgb(255, 135, 106) !important;
 }
 .bg-secondary{
     background-color: #C2D8B9 !important;
