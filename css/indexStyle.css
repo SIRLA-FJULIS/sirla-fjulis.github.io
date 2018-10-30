@@ -31,7 +31,8 @@ p{
 }
 @media(max-width:600px){
     #sirla_info_logo{
-        margin-bottom: 0;
+        margin-bottom: 0;  /* for halloween */
+        margin-right: 20px;
     }
     #text_logo{
         font-size: 2.9rem;
